@@ -3,64 +3,64 @@
 /* 覆盖 TDesign 的 CSS 变量以匹配品牌色彩 */
 :root {
   /* 主品牌色 - 橙金色系 */
-  --td-brand-color: #F39C12;
-  --td-brand-color-1: #FEF5E7;
-  --td-brand-color-2: #FDE68A;
-  --td-brand-color-3: #FBBF24;
-  --td-brand-color-4: #F59E0B;
-  --td-brand-color-5: #F39C12;
-  --td-brand-color-6: #E67E22;
-  --td-brand-color-7: #D35400;
-  --td-brand-color-8: #B45309;
-  --td-brand-color-9: #92400E;
-  --td-brand-color-10: #78350F;
+  --td-brand-color: #8C7355;
+  --td-brand-color-1: #FAF7F2;
+  --td-brand-color-2: #EEE3D4;
+  --td-brand-color-3: #D9C5AD;
+  --td-brand-color-4: #B99674;
+  --td-brand-color-5: #8C7355;
+  --td-brand-color-6: #8C7355;
+  --td-brand-color-7: #705A40;
+  --td-brand-color-8: #5D4A35;
+  --td-brand-color-9: #4E3E2D;
+  --td-brand-color-10: #3F3326;
 
   /* 主要按钮和交互元素 */
-  --td-brand-color-hover: #E67E22;
-  --td-brand-color-focus: #F39C12;
-  --td-brand-color-active: #D35400;
-  --td-brand-color-disabled: #FDE68A;
+  --td-brand-color-hover: #8C7355;
+  --td-brand-color-focus: #8C7355;
+  --td-brand-color-active: #705A40;
+  --td-brand-color-disabled: #EEE3D4;
 
   /* 品牌色浅色版本 - 用于选中/高亮背景 */
-  --td-brand-color-light: rgba(243, 156, 18, 0.12);
-  --td-brand-color-light-hover: rgba(243, 156, 18, 0.18);
-  --td-brand-color-light-active: rgba(243, 156, 18, 0.24);
+  --td-brand-color-light: rgba(140, 115, 85, 0.12);
+  --td-brand-color-light-hover: rgba(140, 115, 85, 0.18);
+  --td-brand-color-light-active: rgba(140, 115, 85, 0.24);
 
   /* 成功色 - 保持TDesign默认或使用品牌绿色 */
-  --td-success-color: #00B894;
-  --td-success-color-hover: #00A085;
-  --td-success-color-active: #008B75;
+  --td-success-color: #16A34A;
+  --td-success-color-hover: #15803D;
+  --td-success-color-active: #166534;
 
   /* 警告色 - 使用品牌橙色 */
-  --td-warning-color: #E67E22;
-  --td-warning-color-hover: #D35400;
-  --td-warning-color-active: #B45309;
+  --td-warning-color: #8C7355;
+  --td-warning-color-hover: #705A40;
+  --td-warning-color-active: #5D4A35;
 
   /* 错误色 - 使用玫红色系 */
-  --td-error-color: #E91E63;
-  --td-error-color-hover: #C2185B;
-  --td-error-color-active: #AD1457;
+  --td-error-color: #DC2626;
+  --td-error-color-hover: #B91C1C;
+  --td-error-color-active: #991B1B;
 
   /* 文本色彩 */
-  --td-text-color-primary: #2D3436;
-  --td-text-color-secondary: #636E72;
-  --td-text-color-placeholder: #B2BEC3;
-  --td-text-color-disabled: #DDD6FE;
+  --td-text-color-primary: #1A1816;
+  --td-text-color-secondary: #8A857C;
+  --td-text-color-placeholder: #B5AFA5;
+  --td-text-color-disabled: #D9D4CB;
 
   /* 背景色 */
-  --td-bg-color-page: #FFFFFF;
-  --td-bg-color-container: #F8F9FF;
-  --td-bg-color-container-hover: #F1F5F9;
-  --td-bg-color-container-active: #E2E8F0;
+  --td-bg-color-page: #FAFAF8;
+  --td-bg-color-container: #F4F3F0;
+  --td-bg-color-container-hover: #ECEAE4;
+  --td-bg-color-container-active: #E8E6E1;
 
   /* 边框色 */
-  --td-border-level-1-color: #F1F5F9;
-  --td-border-level-2-color: #E2E8F0;
+  --td-border-level-1-color: #ECEAE4;
+  --td-border-level-2-color: #E8E6E1;
 
   /* 阴影 */
-  --td-shadow-1: 0 1px 10px rgba(0, 0, 0, 0.05), 0 4px 5px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.12);
-  --td-shadow-2: 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 8px 10px 1px rgba(0, 0, 0, 0.06), 0 5px 5px -3px rgba(0, 0, 0, 0.1);
-  --td-shadow-3: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  --td-shadow-1: 0 1px 10px rgba(26, 24, 22, 0.05), 0 4px 5px rgba(26, 24, 22, 0.08), 0 2px 4px -1px rgba(26, 24, 22, 0.12);
+  --td-shadow-2: 0 3px 14px 2px rgba(26, 24, 22, 0.05), 0 8px 10px 1px rgba(26, 24, 22, 0.08), 0 5px 5px -3px rgba(26, 24, 22, 0.1);
+  --td-shadow-3: 0 6px 16px 0 rgba(26, 24, 22, 0.08), 0 3px 6px -4px rgba(26, 24, 22, 0.12), 0 9px 28px 8px rgba(26, 24, 22, 0.05);
 
   /* 圆角 */
   --td-radius-small: 0.25rem;
@@ -109,7 +109,7 @@
   /* Input 组件 */
   .t-input:focus {
     border-color: var(--td-brand-color);
-    box-shadow: 0 0 0 2px rgba(243, 156, 18, 0.2);
+    box-shadow: 0 0 0 2px rgba(140, 115, 85, 0.2);
   }
 
   /* Tabs 组件 */
@@ -137,7 +137,7 @@
 
   /* Select 组件 */
   .t-select__option.t-is-selected {
-    background-color: rgba(243, 156, 18, 0.1);
+    background-color: rgba(140, 115, 85, 0.1);
     color: var(--td-brand-color);
   }
 
@@ -153,7 +153,7 @@
 
   /* Tag 组件 */
   .t-tag--theme-primary {
-    background-color: rgba(243, 156, 18, 0.1);
+    background-color: rgba(140, 115, 85, 0.1);
     color: var(--td-brand-color);
     border-color: var(--td-brand-color-2);
   }
@@ -202,14 +202,14 @@
   .t-slider__rail {
     height: 3px !important;
     border-radius: 2px !important;
-    background-color: rgba(0, 0, 0, 0.06) !important;
+    background-color: rgba(26, 24, 22, 0.08) !important;
   }
 
   .t-slider__button {
     width: 12px !important;
     height: 12px !important;
     border: 1.5px solid var(--td-brand-color) !important;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 1px 2px rgba(26, 24, 22, 0.1) !important;
     transition: transform 0.15s ease !important;
 
     &:hover {
