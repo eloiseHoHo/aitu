@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500&display=swap');
+
+.alra-login-shell {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  background: #fafaf8;
+  color: #3d3a35;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.alra-login-visual {
+  position: relative;
+  background: url('/product_showcase/case-1.png') center/cover no-repeat;
+}
+
+.alra-login-visual__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(112, 73, 46, 0.62);
+}
+
+.alra-login-brand {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 42px;
+
+  .alra-login-brand__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #fff;
+    line-height: 1;
+  }
+
+  p {
+    margin: 0;
+    max-width: 260px;
+    color: rgba(250, 250, 248, 0.88);
+    font-size: 26px;
+    line-height: 1.6;
+  }
+}
+
+.alra-login-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+}
+
+.alra-login-mobile-brand {
+  display: none;
+  font-family: 'Playfair Display', serif;
+  color: #1a1816;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.alra-login-card {
+  width: min(420px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 12px;
+
+  h1 {
+    margin: 0;
+    color: #1a1816;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  label {
+    color: #8a857c;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 6px;
+  }
+
+  input {
+    height: 42px;
+    border: 1px solid #e8e6e1;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 15px;
+    color: #3d3a35;
+    outline: none;
+    background: #fff;
+
+    &:focus {
+      border-color: #1a1816;
+      box-shadow: 0 0 0 1px #1a1816;
+    }
+
+    &::placeholder {
+      color: #bbb5ad;
+    }
+  }
+
+  button {
+    height: 42px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 12px;
+    background: #141313;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.alra-login-desc {
+  margin: 0 0 8px;
+  color: #8a857c;
+  font-size: 14px;
+}
+
+.alra-login-error {
+  margin: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  background: rgba(220, 38, 38, 0.08);
+  color: #dc2626;
+  font-size: 13px;
+  padding: 8px 10px;
+}
+
+.alra-login-register {
+  margin: 8px 0 0;
+  text-align: center;
+  color: #8a857c;
+  font-size: 14px;
+
+  a {
+    color: #1a1816;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .alra-login-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .alra-login-visual {
+    display: none;
+  }
+
+  .alra-login-mobile-brand {
+    display: block;
+    width: min(420px, 100%);
+    margin: 0 auto 16px;
+  }
+}

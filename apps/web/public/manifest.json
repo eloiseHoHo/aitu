@@ -1,7 +1,7 @@
 {
-  "name": "OpenTu - AI图片视频创作",
-  "short_name": "OpenTu",
-  "description": "OpenTu 是一款强大的AI图片视频创作工具，集成思维导图、流程图等功能。基于 Plait 框架开发，支持插件扩展，提供自动保存、无限画布等特性。",
+  "name": "Alra Studio - 内部内容素材平台",
+  "short_name": "Alra",
+  "description": "Alra Studio 内部内容素材管理与制作平台，支持素材管理、素材生成与流程协作。",
   "start_url": "./",
   "display": "standalone",
   "orientation": "any",

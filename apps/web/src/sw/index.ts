@@ -3564,7 +3564,7 @@ function createOfflinePage(): Response {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>离线 - OpenTu</title>
+  <title>离线 - Alra Studio</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

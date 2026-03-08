@@ -9,9 +9,9 @@ import { useEffect, useCallback } from 'react';
 import { workspaceService } from '../services/workspace-service';
 
 // 默认标题前缀
-const TITLE_PREFIX = 'OpenTu';
+const TITLE_PREFIX = 'Alra Studio';
 // 默认标题（无项目时）
-const DEFAULT_TITLE = 'OpenTu - AI图片视频创作';
+const DEFAULT_TITLE = 'Alra Studio - 内部内容素材平台';
 
 /**
  * 设置页面标题
